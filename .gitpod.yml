@@ -1,0 +1,4 @@
+tasks:
+  - command: echo ${GITPOD_REPO_ROOTS}
+    
+workspaceLocation: ./main.code-workspace
