@@ -1,4 +1,4 @@
 tasks:
   - command: echo ${GITPOD_REPO_ROOTS}
     
-workspaceLocation: ./main.code-workspace
+workspaceLocation: gitpod-code-workspace/main.code-workspace
