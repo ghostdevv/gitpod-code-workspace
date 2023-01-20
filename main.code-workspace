@@ -3,14 +3,13 @@
 	// The additional repos are cloned inside /workspace dir
 	  	"folders": [
 			{
-				"path": "../.dotfiles"  //this allows you to edit Gitpod Dotfiles on the fly.
+				"name": "Test",
+				"path": "/workspace/.gitpod"  //this allows you to edit Gitpod Dotfiles on the fly.
 			},
 		  	{
+				"name": "Main",
 				"path": "." // Dev Repo that holds Gitpod Related files 
 		  	},
-			{
-				"path": "../ProjectDir"
-			},
     	],
   
 }
