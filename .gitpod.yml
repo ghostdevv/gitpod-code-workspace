@@ -1,5 +1,5 @@
 tasks:
   - command: echo ${GITPOD_REPO_ROOTS}
   - init: cp "$GITPOD_REPO_ROOT/main.code-workspace" "/workspace"
-    
-workspaceLocation: main.code-workspace
+
+workspaceLocation: ./main.code-workspace
