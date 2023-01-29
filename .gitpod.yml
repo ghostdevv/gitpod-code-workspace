@@ -1,7 +1,7 @@
 tasks:
   - command: echo ${GITPOD_REPO_ROOTS}
-  # - init: |
-  #     cp "$GITPOD_REPO_ROOT/main.code-workspace" "/workspace"
-  #     && 
+  - init: |
+      cp "$GITPOD_REPO_ROOT/main.code-workspace" "/workspace"
+      && sed -i "s|%repo%|$GITPOD_REPO_ROOT|g" /workspace/main.code-workspace
 
 workspaceLocation: ./main.code-workspace

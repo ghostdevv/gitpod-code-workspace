@@ -8,7 +8,7 @@
 			},
 		  	{
 				"name": "Main",
-				"path": "." // Dev Repo that holds Gitpod Related files 
+				"path": "%repo%" // Dev Repo that holds Gitpod Related files 
 		  	},
     	],
   
